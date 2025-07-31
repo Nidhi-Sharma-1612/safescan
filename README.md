@@ -4,6 +4,17 @@ SafeScan is a full-stack application for uploading files and scanning them for s
 
 ---
 
+## 🔧 Getting Started
+
+1. **Clone the repository**:
+
+```bash
+git clone https://github.com/Nidhi-Sharma-1612/safescan.git
+cd safescan
+```
+
+---
+
 ## 📦 Backend Setup
 
 1. **Install dependencies**:
@@ -82,6 +93,26 @@ Open [http://localhost:3000](http://localhost:3000) to use the dashboard.
 
 ---
 
+## 🧰 Tech Stack
+
+- **Frontend**: Next.js, TypeScript, Tailwind CSS
+- **Backend**: Node.js, Express, TypeScript
+- **Queue**: In-memory job queue
+- **Database**: MongoDB (Mongoose)
+
+---
+
+## ✅ Features Implemented
+
+- File upload with size/type restrictions
+- Local storage using `multer`
+- MongoDB integration with scan metadata
+- Background scanning with queue simulation
+- Frontend filter & pagination
+- Toast messages & responsive UI
+
+---
+
 ## 🖼️ Project Screenshots
 
 ### Dashboard View
@@ -103,23 +134,3 @@ Open [http://localhost:3000](http://localhost:3000) to use the dashboard.
 ### Filter by Infected
 
 ![Filtered](./screenshots/filtered.png)
-
----
-
-## ✅ Features Implemented
-
-- File upload with size/type restrictions
-- Local storage using `multer`
-- MongoDB integration with scan metadata
-- Background scanning with queue simulation
-- Frontend filter & pagination
-- Toast messages & responsive UI
-
----
-
-## 🧰 Tech Stack
-
-- **Frontend**: Next.js, TypeScript, Tailwind CSS
-- **Backend**: Node.js, Express, TypeScript
-- **Queue**: In-memory job queue
-- **Database**: MongoDB (Mongoose)
